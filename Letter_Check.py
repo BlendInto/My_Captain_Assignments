@@ -13,7 +13,6 @@ def most_Frequent(arr, Len):
         else:
             d[arr[i]] = 1
     size = len(d)
-    print(d.items())
 
     while (size > 0):
         currentMax = 0
